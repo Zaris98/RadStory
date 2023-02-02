@@ -1,26 +1,8 @@
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  nav li {
-    float: left;
-  }
-  
-  nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    background-color: #111;
-  }
+body{
+  background-color: rgb(165, 35, 115);
+}
+
+
 
   .title{
     color: blue;
@@ -69,3 +51,37 @@ nav ul {
   #feedback input[type="submit"]:hover {
     background-color: #45a049;
   }
+  .round-button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border: none;
+  }
+
+  .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #333;
+        padding: 0 20px;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 20px;
+      }
+
+      .navbar a:hover {
+        color: #aaa;
+      }
+
+      .navbar-right {
+        display: flex;
+        align-items: center;
+      }

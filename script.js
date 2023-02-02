@@ -10,3 +10,12 @@ navLinks.forEach(function(link) {
     });
   });
 });
+
+document.getElementById("addDiv").addEventListener("click", function() {
+  // Create a new div element
+  var newDiv = document.createElement("div");
+  newDiv.innerHTML = "I am a new div";
+
+  // Add the new div to the container
+  document.getElementById("container").appendChild(newDiv);
+});
